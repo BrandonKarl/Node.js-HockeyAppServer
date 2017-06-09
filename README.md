@@ -28,7 +28,7 @@ This server has 3 routes:
 * The teams route ```/api/teams/:team``` which takes any NHL team and displays their statistics.</li>
 * The cities route ```/api/cities/:city``` which takes any NHL city and displays their statistics.</li>
 
-In order to have access to the information, you **must** recieve credentials in order to access my database. If you recieve them, create a file called ```database_credentials.js``` that exports functions called ```username()``` and ```password()``` that return their respective values as strings.
+In order to have access to the information, you **must** recieve credentials in order to access my database. If you recieve them, create a file called ```database_credentials.js``` in the root directory of this project that exports functions called ```username()``` and ```password()``` that return their respective values as strings.
 
 #### Notes
 
