@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
+var databaseCredentials = require('../database_credentials.js')
 
 //Personal MongoDB with tram data
-var db = mongojs('mongodb://username:password@ds139761.mlab.com:39761/hockeyappdatabase', ['teams']);
+var db = mongojs('mongodb://' + databaseCredentials.username() + ':' + databaseCredentials.password() + '@ds139761.mlab.com:39761/hockeyappdatabase', ['teams']);
 
 
 //Get all the teams
