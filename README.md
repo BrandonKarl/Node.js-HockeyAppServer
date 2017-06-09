@@ -11,7 +11,7 @@ This is the server for a personal non-commercial, ice hockey NHL statistics data
   <li>Express</li>
   <li>Mongojs</li>
   <li>Body-parser</li>
-  <li>ejs</li>
+  <li>Ejs</li>
 </ul> 
 
 These and any further dependencies are within the package.json file included
@@ -24,11 +24,10 @@ To run the server locally, please download ```node``` which will also come with 
 
 This server has 3 routes:
 
-<ul>
-  <li>The root route ```/``` which shows the landing page and no other information.</li>
-  <li>The teams route ```/api/teams/:team``` which takes any NHL team and displays their statistics.</li>
-  <li>The cities route ```/api/cities/:city``` which takes any NHL city and displays their statistics.</li>
-</ul> 
+* The root route ```/``` which shows the landing page and no other information.</li>
+* The teams route ```/api/teams/:team``` which takes any NHL team and displays their statistics.</li>
+* The cities route ```/api/cities/:city``` which takes any NHL city and displays their statistics.</li>
+
 
 #### Notes
 
